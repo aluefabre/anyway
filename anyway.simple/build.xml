@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<project name="Anyway" default="build" basedir=".">
+
+   <target name="layout">
+      <property name="source.path" value="src"/>
+      <property name="javadoc.path" value="javadoc"/>
+      <property name="build.path" value="build"/>
+      <property name="jar.path" value="jar"/>
+      <property name="version" value="0.1"/>
+   </target>
+
+   <target name="clean" depends="layout">
+      <delete dir="${build.path}"/>
+      <delete dir="${jar.path}"/>
+   </target>
+
+   <target name="prepare" depends="clean">
+      <mkdir dir="${build.path}"/>
+      <mkdir dir="${jar.path}"/>
+   </target>
+
+	<path id="project.class.path">
+	    <fileset dir="lib" includes="*.jar"/>
+	</path>
+
+   <target name="build" depends="prepare">
+      <javac target="1.5" srcdir="${source.path}" destdir="${build.path}" debug="true" debuglevel="lines,vars,source" encoding="UTF-8">
+      	 <classpath refid="project.class.path"/>
+      </javac>	
+      <jar jarfile="${jar.path}/anyway-${version}.jar" basedir="${build.path}">
+      	 <manifest>
+      	   <attribute name="Main-Class" value="org.fabrelab.anyway.Main"/>
+      	 </manifest>
+   	  </jar>
+      <delete dir="${build.path}"/>
+   </target>
+
+   <target name="all">
+      <antcall target="build"/>
+   </target>
+</project>

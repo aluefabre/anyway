@@ -1,0 +1,170 @@
+div.itemtitle
+{
+	font: bold 13px/25px Arial,sans-serif;
+	float: left;
+}
+
+div.listaddfav
+{
+	font: bold 13px/25px Arial,sans-serif;
+	padding-right: 10px;
+	float: right;
+}
+
+.cycle div.question div.listaddfav a
+{
+	color: #57ac40;
+	font: 13px/25px Arial,sans-serif;
+}
+
+h3.paratitle
+{
+	background: #2e8baa url(/css/images/itembanner.png) repeat-x;
+	color: #fff;
+	font: bold 12px/25px Arial,sans-serif;
+	height: 26px;
+	opacity: .85;
+	padding-left: 10px;
+	position: relative;
+	text-align: left;
+	text-shadow: 1px 1px 1px #000;
+}
+
+h3.paratitle a
+{
+	color: #fff;
+	display: block;
+}
+h3.paratitle a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+h3.paratitle a:visited
+{
+	color: #fff;
+}
+
+.cycle 
+{
+	padding-top: 10px;	
+	padding-right: 10px;	
+	padding-left: 10px;
+}
+.cycle ol li
+{
+	display: block;
+}
+.cycle ol li p
+{
+	margin-bottom: 0;
+}
+
+.cycle div.question
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	margin-bottom: 5px;
+	height: 26px
+}
+
+div.tag
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	margin-bottom: 5px;
+	height: 46px;
+	width: 180px;
+}
+
+div.tagPin
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	margin-bottom: 5px;
+	height: 40px;
+	width: 180px;
+}
+
+div.tagsub
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	margin-bottom: 10px;
+	width: 180px
+}
+
+div.tagsub a
+{
+	color: #57ac40;
+}
+
+div.thistagsub
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	float: right;
+}
+
+div.thistagsub a{
+	color: #57ac40;
+}
+
+.cycle div.answer
+{
+	border-bottom: 2px dotted #cad3d5;
+	color: #525252;
+	font: normal 12px Arial,Helvetica,sans-serif;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.cycle ol li div.answer
+{
+	border-bottom: 2px dotted #cad3d5;
+	color: #525252;
+	font: normal 12px Arial,Helvetica,sans-serif;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.cycle-pagination
+{
+	clear: both;
+}
+
+.cycle-pagination a
+{
+	display: block;
+	float: left;
+	height: 20px;
+	opacity: .85;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.cycle-pagination a.cycle-previous
+{
+	background: url(/css/images/prevpage.png) no-repeat;
+	margin-right: 6px;
+	text-indent: -9999px;
+	width: 20px;
+}
+.cycle-pagination a.cycle-next
+{
+	background: url(/css/images/nextpage.png) no-repeat;
+	margin-right: 6px;
+	text-indent: -9999px;
+	width: 20px;
+}
+
+.items-box
+{
+	background: #fff none;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+}
+
+.float-right
+{
+	float: right;
+}

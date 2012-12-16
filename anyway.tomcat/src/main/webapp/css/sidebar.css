@@ -1,0 +1,38 @@
+/*Sidebar style++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.widget {
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.widget-title {
+	padding: 5px 0 5px 10px;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.widget-title a {
+	color:#FE0;
+}
+
+.widget-box {
+	padding: 10px 0 10px 10px;
+}
+
+.widget-box ul li {
+	padding: 3px 0;
+	color: #7E7E7E;
+	line-height: 140%;
+	font-size: 0.9em;
+}
+
+#widget-popular ul li a{
+	background: url(images/ebg.gif) no-repeat 0 5px;
+	padding-left: 15px;
+}
+
+#widget-popular h3 {
+	background: #2e8baa url(/css/images/itembanner.png) repeat-x;
+	color: #fff;
+	font: bold 12px/ 16px Arial, sans-serif;
+	opacity: .85;
+	text-align: left;
+	text-shadow: 1px 1px 1px #000;
+}

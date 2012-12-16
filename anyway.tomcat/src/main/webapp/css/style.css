@@ -1,0 +1,142 @@
+/*  
+Theme Name: webline
+Theme URI: http://www.5android.com
+Description: Private Theme
+Version: 0.1
+Author:paran
+Author URI: http://www.5android.com
+*/
+	/*Overall style+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	font: 0.80em Arial, Tahoma, Verdana;
+	color: #3E3E3E;
+	background: #FFF;
+}
+
+body,select,input,textarea {
+	font-size: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #3399cc;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+:focus {
+	outline: none;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+h6 {
+	font-size: 0.9em;
+}
+
+div#wrapper {
+	margin: 0 auto;
+	min-width: 960px;
+	max-width: 1200px;
+	padding: 0 20px;
+	width: expression(document.body.clientWidth >     1024 ?     "1200px" :  
+		"960px");
+}
+
+div#main {
+	background: repeat-y right top;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+div#container {
+	float: right;
+	margin: 0 0 0 -210px;
+	width: 100%;
+}
+
+div#content {
+	margin: 0 0 0 210px;
+}
+
+div#left-content {
+	float: left;
+	margin: 0 -180px 0 0;
+	width: 100%;
+}
+
+div#content-list {
+	padding: 5px;
+	margin: 0 180px 0 0;
+}
+
+div#rightbar {
+	float: right;
+	overflow: hidden;
+	width: 169px;
+	padding: 5px;
+	border-left: 1px solid #DEDEDE;
+	height: 1000px
+}
+
+div#sidebar {
+	float: left;
+	overflow: hidden;
+	width: 199px;
+	padding: 5px;
+	border-right: 1px solid #DEDEDE;
+	height: 1000px
+}
+
+
+
+
+/*Footer style++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#footer {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	padding: 10px 0;
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid #DEDEDE;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right
+}

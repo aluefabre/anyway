@@ -1,0 +1,17 @@
+<script type="text/javascript">
+  (function(){
+   var hash = window.location.hash.substring(1);
+   var preHeight = parseInt(hash, 10);
+   var ifrmae = window.top.document.getElementById("commentFrame");
+   ifrmae.height = preHeight;
+
+   setInterval(function(){
+     var newHeight = parseInt(window.location.hash.substring(1) ,10);
+     if (newHeight !== preHeight){
+     ifrmae.height = newHeight;
+     preHeight = newHeight;
+
+     }
+     },500);
+   })(); 
+ </script>

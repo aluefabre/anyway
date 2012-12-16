@@ -1,0 +1,99 @@
+/*Header style++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#header {
+	width: 100%;
+	height: 89px;
+	background: url(images/logo.png) no-repeat 5px center;
+	zoom:1;
+}
+
+div#topline {
+	
+}
+
+ul#toplinenav {
+	color: #AEAEAE;
+	font-weight: bold;
+}
+
+ul#toplinenav li {
+	float: left;
+}
+
+ul#toplinenav li a {
+	font-weight: normal;
+	color: #57AC40;
+}
+
+div#header-bottom {
+	position: absolute;
+	padding-left: 440px;
+	top: 59px;
+	width: 580px;
+	z-index:200;
+}
+
+ul#mainnav li.cat-item {
+	float: left;
+	border-top: 1px solid #DEDEDE;
+	border-right: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;
+	position: relative;
+	height: 30px;
+}
+
+ul#mainnav li.cat-item a {
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	font-weight: bold;
+	display: block;
+}
+
+ul#mainnav li.cat-item ul{
+	background:#FFF;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:120px;
+	float:none;
+	z-index:200;
+}
+
+ul#mainnav li.cat-item:hover ul{
+	position:absolute;
+	display:block;
+	padding-top:2px;
+	margin:0px;
+	border:0px;
+	float:none;
+	z-index:200;
+}
+
+ul#mainnav li.cat-item ul li {
+	display:block;
+	float:none;
+	width:120px;
+	border-bottom: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
+	border-right: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;
+	height:auto;
+}
+
+ul#mainnav li.cat-item ul li{
+	background:#FFF center left no-repeat;
+}
+
+ul#mainnav li.cat-item:hover, ul#mainnav li a:hover , ul#mainnav li ul li:hover{
+	background:#FFFBDF center left no-repeat;
+	text-decoration:none;
+	color: #57AC40;
+	cursor: pointer;
+}
+
+
+
